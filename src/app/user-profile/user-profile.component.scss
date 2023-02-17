@@ -1,0 +1,49 @@
+
+
+.profile {
+  padding: 1rem;
+  box-sizing: border-box;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  &-card-header {
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  &-update {
+    &-header {
+      font-size: 1.2rem;
+      font-weight: normal;
+      padding-bottom: 0.5rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &-actions {
+    display: flex;
+    // flex-direction: column;
+    justify-content: space-between;
+
+    &-update-btn {
+      background-color: rgb(17, 52, 82) !important;
+      color: white !important;
+    }
+
+    &-delete-btn {
+      background-color: #00c3ff !important;
+      color: rgb(43, 41, 41) !important;
+    }
+  }
+}

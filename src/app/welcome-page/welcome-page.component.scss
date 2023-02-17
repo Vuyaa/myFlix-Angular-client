@@ -1,0 +1,32 @@
+
+:host {
+    .main-page {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding: 1rem;
+  
+      h1 {
+        color: #161750;
+        margin-bottom: 1rem;
+      }
+  
+      .sign-up {
+        background-color: rgb(55, 90, 154);
+        color: rgb(0, 0, 0);
+      }
+  
+      .log-in {
+        background-color: #1f2a58;
+        color: rgb(103, 217, 255);
+      }
+.main-page{
+    border-radius: 60%;
+    border: 1px solid black;
+}
+
+    }
+  }
