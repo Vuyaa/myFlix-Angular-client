@@ -40,6 +40,7 @@ export class UserProfileComponent implements OnInit {
       this.updatedUser.Username = this.user.Username;
       this.updatedUser.Email = this.user.Email;
       this.updatedUser.Birthday = this.user.Birthday;
+      this.updatedUser.Password = this.user.Password;
     });
   }
 
