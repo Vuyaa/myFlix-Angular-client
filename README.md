@@ -14,6 +14,21 @@ Welcome Screen:
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
 
+## Description
+
+The client side of the movie app build with Angular. It is divided into 3 different modules/screens such as Welcome screen, Profile screen and the movie-card screen.
+User can register/login see interesting movies, "like" them and update his details in the user screen.
+
+## Live demo
+The web app is live on <a href="https://vuyaa.github.io/myFlix-Angular-client/welcome">this link</a>
+
+## Technologies
+
+<li>Angular</li>
+<li>Angular material</li>
+<li>TypeScript</li>
+<li>TypeDoc</li>
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
